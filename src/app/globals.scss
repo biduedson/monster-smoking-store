@@ -1,0 +1,36 @@
+// Variáveis
+$font-size-root: 10px; // 1rem será igual a 10px
+$max-container-width: 1980px;
+
+// Mixins
+@mixin container {
+  max-width: $max-container-width;
+}
+
+// Definições de estilos globais
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1980px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-size: $font-size-root;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
