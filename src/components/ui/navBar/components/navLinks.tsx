@@ -1,5 +1,5 @@
+import styles from "@/components/ui/navBar/page.module.scss";
 import Link from "next/link";
-import styles from "@/components/ui/header/page.module.scss";
 const links = [
   {
     name: "home",
