@@ -1,5 +1,7 @@
 import styles from "@/components/ui/navBar/page.module.scss";
 import Link from "next/link";
+import { IoMdMenu } from "react-icons/io";
+import { MdOutlineClose } from "react-icons/md";
 const links = [
   {
     name: "home",
