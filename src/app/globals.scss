@@ -1,11 +1,7 @@
 // Variáveis
 $font-size-root: 10px; // 1rem será igual a 10px
 $max-container-width: 1980px;
-
-// Mixins
-@mixin container {
-  max-width: $max-container-width;
-}
+$yellow-color: #f28a20;
 
 // Definições de estilos globais
 * {

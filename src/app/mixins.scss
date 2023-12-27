@@ -1,0 +1,36 @@
+@import "/src/app/variables.scss";
+@mixin container {
+  max-width: $max-container-width;
+}
+
+@mixin to-mobile {
+  @media screen and (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin to-tablet {
+  @media screen and (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin to-desktop {
+  @media screen and (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin yellow-btn {
+  width: 19.5rem;
+  height: 7.1rem;
+
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  background: $yellow-color;
+  color: $white-coler;
+  cursor: pointer;
+}
