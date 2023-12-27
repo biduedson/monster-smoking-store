@@ -2,7 +2,7 @@
 import Logo from "./components/logo";
 import NavLinks from "./components/navLinks";
 import styles from "./page.module.scss";
-import variablesScss from "@/app/variables.module.scss";
+
 const NavBar = () => {
   return (
     <div className={styles.nav_bar}>
